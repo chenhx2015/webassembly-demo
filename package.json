@@ -1,0 +1,28 @@
+{
+  "name": "webassembly-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js",
+    "asbuild:untouched": "asc assembly/index.ts -b build/untouched.wasm -t build/untouched.wat --sourceMap --debug",
+    "asbuild:optimized": "asc assembly/index.ts -b build/optimized.wasm -t build/optimized.wat --sourceMap --optimize",
+    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenhx2015/webassembly-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenhx2015/webassembly-demo/issues"
+  },
+  "homepage": "https://github.com/chenhx2015/webassembly-demo#readme",
+  "dependencies": {
+    "@assemblyscript/loader": "^0.10.0"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.10.0"
+  }
+}
