@@ -55,7 +55,7 @@
 
 ### 六：浏览器的兼容状态
 
-- 1. 二月二十八日，四大浏览器宣布达成共识，即 WebAssembly 的 MVP （最小化可行产品）已经完成。大约一周后，Firefox 会默认打开 WebAssembly 支持，而 Chrome 则在第二周开始。它也可用于预览版本的 Edge 和 Safari
+- 1. 四大浏览器宣布达成共识，即 WebAssembly 的 MVP （最小化可行产品）已经完成。大约一周后，Firefox 会默认打开 WebAssembly 支持，而 Chrome 则在第二周开始。它也可用于预览版本的 Edge 和 Safari
 
 ### 七：具体选择的语言
 
@@ -77,6 +77,8 @@
 
 ### 九：参考文档：
 
+- https://www.assemblyscript.org/loader.html#installation
+- https://www.assemblyscript.org/stdlib/array.html#constructor  standard library
 - https://www.jianshu.com/p/bff8aa23fe4d
 - https://www.cnblogs.com/jixiaohua/p/10425805.html
 - https://www.ibm.com/developerworks/cn/web/wa-lo-webassembly-status-and-reality/index.html
